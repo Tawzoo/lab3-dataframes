@@ -76,8 +76,6 @@ names(Games)
 for(i in 1:ncol(Games)){
   cat("The variable name is", colnames(Games)[i], "at column number", i ,"\n")
 }
-
-
 ## Write a loop over all variables in your data frame
 ## print the variable name inside the loop,
 ## and true/false, depending if the variable is numeric
@@ -91,7 +89,6 @@ for(i in 1:ncol(Games)){
     print("False")
   }
 }
-
 ## Write a loop over all variables in your data frame
 ## print the variable name inside the loop,
 ## and the average value of the variable
